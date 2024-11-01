@@ -1,0 +1,160 @@
+/* LettersMenu.css */
+
+/* Default styles for larger screens */
+  .container-lettersmenu {
+    background-color: #f0f8ff;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* padding-bottom: 15vh; */
+  }
+  
+  .title-lettersmenu {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    margin-top: 0rem; /* Adjusted top margin for balance */
+  }
+  
+  .grid-lettersmenu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .letter-box-lettersmenu {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 3rem;
+  }
+  
+  .letter-box-lettersmenu:hover {
+    transform: scale(1.05);
+  }
+  
+  .disabled-lettersmenu {
+    background-color: #6fad70; /* Gray color to indicate it's disabled */
+    cursor: not-allowed;       /* Change the cursor to indicate it's disabled */
+    opacity: 0.6;              /* Reduce opacity to give a disabled effect */
+  }
+  
+  .button-container-lettersmenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .nav-button-lettersmenu {
+    font-size: 1.2rem;
+    padding: 0.7rem 0.9rem;
+    background-color: #4CAF50; /* '#e8c400' */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+    height: 3rem;
+    width: 7rem;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) {
+    /* #root {
+      height: 70%;
+    } */
+
+    .container-lettersmenu {
+      /* padding: 0rem; */
+      /* height: auto; */
+      justify-content: flex-start;
+      /* margin-bottom: -50px; */
+    }
+  
+    .title-lettersmenu {
+      font-size: 8vw;
+      /* margin-top: 24px; */
+      margin-bottom: 1.2rem;
+      text-align: center;
+      /* color: red; */
+      margin-top: 1rem; /* Adjusted top margin for balance */
+    }
+  
+    .grid-lettersmenu {
+      grid-template-columns: repeat(4, 1fr); /* Adjust number of columns */
+      grid-gap: 0.7rem;
+      max-height: 60%;
+      overflow: auto;
+    }
+  
+    .letter-box-lettersmenu {
+      font-size: 7vw;
+      /* padding: 0.5rem; */
+      width: 2.5rem;
+      height: 2rem;
+    }  
+    
+    .button-container-lettersmenu {
+      /* margin-bottom: 15%; */
+    }
+    
+    .nav-button-lettersmenu {
+      font-size: 5vw;
+      /* width: 80%; */
+      max-width: 300px;
+      margin: -1rem 0;
+    }
+  }
+  
+  /* Responsive styles for mobile devices in landscape mode */
+  @media (max-width: 812px) /*(max-height: 500px)*/ and (orientation: landscape) {
+    .container-lettersmenu {
+      /* padding: 0rem; */
+      /* height: auto; */
+      justify-content: flex-start;
+      /* margin-bottom: -50px; */
+    }
+  
+    .title-lettersmenu {
+      font-size: 4vw;
+      /* margin-top: 24px; */
+      margin-bottom: 1.2rem;
+      text-align: center;
+      /* color: red; */
+      margin-top: 1rem;
+    }
+  
+    .grid-lettersmenu {
+      grid-template-columns: repeat(8, 1fr); /* Adjust number of columns */
+      grid-gap: 0.7rem;
+      max-height: 35%;
+      overflow: auto;
+    }
+  
+    .letter-box-lettersmenu {
+      font-size: 3vw;
+      /* padding: 0.5rem; */
+      width: 2rem;
+      height: 1.5rem;
+    }  
+    
+    .button-container-lettersmenu {
+      /* margin-bottom: 15%; */
+    }
+    
+    .nav-button-lettersmenu {
+      font-size: 2.5vw;
+      /* width: 80%; */
+      max-width: 300px;
+      margin: -1rem 0;
+    }
+  }
+  

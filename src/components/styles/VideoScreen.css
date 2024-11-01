@@ -1,0 +1,121 @@
+/* VideoScreen.css */
+
+/* Default styles for larger screens */
+  .video-screen-container-videoscreen {
+    background-color: #f0f8ff;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .video-title-videoscreen {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  
+  .video-player-videoscreen {
+    width: auto;
+    height: 70%;
+    border-radius: 10px;
+  }
+  
+  .button-container-videoscreen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .nav-button-videoscreen {
+    font-size: 1.2rem;
+    padding: 0.7rem 0.9rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+    height: 3rem;
+    width: 15rem;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) {
+    .video-screen-container-videoscreen {
+      padding: 0rem;
+      min-height: 100vh;
+    }
+  
+    .video-title-videoscreen {
+      font-size: 8vw;
+      margin-top: -1rem;
+      text-align: center;
+    }
+  
+    .video-player-videoscreen {
+      width: 95%;
+      /* max-width: 600px; */
+      height: auto;
+    }
+  
+    .button-container-videoscreen {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+  
+    .nav-button-videoscreen {
+      font-size: 5vw;
+      /* padding: 0.7rem 1rem; */
+      margin: 0.5rem 0;
+      width: 100%;
+      max-width: 300px;
+      /* height: 2.8rem; */
+    }
+  }
+  
+  /* Responsive styles for mobile devices in landscape mode */
+  @media (max-width: 812px) /*(max-height: 500px)*/ and (orientation: landscape) {
+    .video-screen-container-videoscreen {
+      padding: 0rem;
+      min-height: 100vh;
+    }
+  
+    .video-title-videoscreen {
+      font-size: 4vw;
+      margin-top: -1rem;
+      text-align: center;
+    }
+  
+    .video-player-videoscreen {
+      width: auto;
+      height: 50%;
+      border-radius: 10px;
+    }
+  
+    .button-container-videoscreen {
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+  
+    .nav-button-videoscreen {
+      font-size: 2.5vw;
+      /* padding: 0.7rem 1rem; */
+      margin: 0rem 0;
+      width: 32vw;
+      max-width: 300px;
+      /* height: 2.8rem; */
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 0rem;
+
+      
+      /* width: 80%; */
+      /* margin: -1rem 0; */
+    }
+  }
+  

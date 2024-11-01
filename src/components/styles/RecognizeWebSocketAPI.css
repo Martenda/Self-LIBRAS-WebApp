@@ -1,0 +1,179 @@
+/* RecognizeWebSocketAPI.css */
+
+/* Default styles for larger screens */
+  .container-recognizewebsocketapi {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .title-recognizewebsocketapi {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  
+  .webcam-container-recognizewebsocketapi {
+    position: relative;
+  }
+  
+  .webcam-recognizewebsocketapi {
+    width: auto;
+    height: 60%;
+    border-radius: 10px;
+    transform: scaleX(-1); /* Flip the video horizontally */
+  }
+  
+  .label-recognized-sign-recognizewebsocketapi {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: green;
+  }
+  
+  .button-container-recognizewebsocketapi {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .nav-button-recognizewebsocketapi {
+    font-size: 1.2rem;
+    padding: 0.7rem 0.9rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+    height: 3rem;
+    width: 15rem;
+  }
+  
+  .congrats-message-recognizewebsocketapi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+    border-radius: 10px; /* Match the webcam's border radius */
+    flex-direction: column;
+  }
+  
+  .congrats-text-recognizewebsocketapi {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) {
+    .container-recognizewebsocketapi {
+      padding: 0rem;
+      min-height: 100vh;
+    }
+  
+    .title-recognizewebsocketapi {
+      font-size: 5vw;
+      margin-top: -3rem;
+      text-align: center;
+    }
+  
+    .webcam-recognizewebsocketapi {
+      width: 95%;
+      height: auto;
+      /* max-height: 50%; */
+    }
+  
+    .label-recognized-sign-recognizewebsocketapi {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 4vw;
+      text-align: center;
+      max-width: 95%;
+      max-height: 1rem;
+    }
+  
+    .button-container-recognizewebsocketapi {
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+  
+    .nav-button-recognizewebsocketapi {
+      font-size: 4vw;
+      margin: 0.5rem 0.3rem;
+      width: 10rem;
+      /* max-width: 300px; */
+      height: 2.8rem;
+    }
+  
+    .congrats-text-recognizewebsocketapi {
+      font-size: 5vw;
+      padding: 0 0.5rem;
+    }
+  }
+  
+  /* Responsive styles for mobile devices in landscape mode */
+  @media (max-width: 812px) /*(max-height: 500px)*/ and (orientation: landscape) {
+    .container-recognizewebsocketapi {
+      padding: 0rem;
+      min-height: 100vh;
+    }
+  
+    .title-recognizewebsocketapi {      
+      font-size: 4vw;
+      margin-top: -1rem;
+      text-align: center;
+    }
+  
+    .webcam-recognizewebsocketapi {
+      /* max-height: 50%; */
+      width: auto;
+      height: 50%;
+      border-radius: 10px;
+    }
+  
+    .label-recognized-sign-recognizewebsocketapi {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+      text-align: center;
+      max-width: 95%;
+      max-height: 1rem;
+    }
+  
+    .button-container-recognizewebsocketapi {
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+  
+    .nav-button-recognizewebsocketapi {
+      font-size: 2.5vw;
+      /* padding: 0.7rem 1rem; */
+      margin: 0rem 0;
+      width: 32vw;
+      max-width: 300px;
+      /* height: 2.8rem; */
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 0rem;
+    }
+  
+    .congrats-text-recognizewebsocketapi {
+      font-size: 5vw;
+      padding: 0 0.5rem;
+    }
+  }
+  
