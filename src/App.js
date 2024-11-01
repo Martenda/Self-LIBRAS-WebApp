@@ -4,6 +4,7 @@ import MainMenu from './components/MainMenu';
 import LettersMenu from './components/LettersMenu';
 import VideoScreen from './components/VideoScreen';
 import RecognizeAI from './components/RecognizeAI';
+import RecognizeWebSocketAPI from './components/RecognizeWebSocketAPI';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/letters" element={<LettersMenu />} />
         <Route path="/video/:letter" element={<VideoScreen />} />
         <Route path="/recognize-ai/:letter" element={<RecognizeAI />} />
+        <Route path="/recognize-websocket-api/:letter" element={<RecognizeWebSocketAPI />} />
       </Routes>
     </Router>
   );
