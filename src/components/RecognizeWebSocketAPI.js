@@ -41,14 +41,13 @@ const RecognizeWebSocketAPI = () => {
     // }
 
     const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-    const hostname = window.location.hostname;
+    const hostname = window.location.hostname; //IP do Server Python
     const port = '5000';
     const path = '/live_camera';
   
     const socketUrl = `${protocol}://${hostname}:${port}${path}`;
   
     socketRef.current = new WebSocket(socketUrl);
-    // socketRef.current = new WebSocket('http://192.168.2.126:5000/live_camera');
 
     socketRef.current.onopen = () => {
       console.log('WebSocket connection opened');

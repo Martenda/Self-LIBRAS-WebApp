@@ -41,6 +41,10 @@
     height: 3rem;
     width: 15rem;
   }
+
+  .nav-button-videoscreen:hover {
+    background-color: #448e48;
+  }
   
   /* Responsive styles for mobile devices */
   @media (max-width: 768px) {

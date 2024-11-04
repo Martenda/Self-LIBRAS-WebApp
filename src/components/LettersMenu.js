@@ -36,7 +36,7 @@ const LettersMenu = () => {
       </div>
       <div className="button-container-lettersmenu">
         <button onClick={goBack} className="nav-button-lettersmenu">
-          Voltar
+          Menu inicial
         </button>
       </div>
     </div>

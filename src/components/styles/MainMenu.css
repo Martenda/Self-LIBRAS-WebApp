@@ -14,6 +14,7 @@
     font-size: 3rem;
     margin-bottom: 6rem;
     margin-top: -2rem;
+    /* text-align: center; */
   }
   
   .button-mainmenu {
@@ -24,8 +25,61 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 1rem;
   }
-  
+
+  .button-mainmenu:hover {
+    background-color: #448e48;
+  }
+
+  .survey-button {
+    background-color: #818181;
+    font-size: 1rem;
+  }
+
+  .survey-button:hover {
+    background-color: #5c5c5c;
+  }
+
+  /* .survey-button:hover {
+    background-color: #cf9e0c;
+  } */
+
+  .footer-mainmenu {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .footer-mainmenu p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .footer-mainmenu a {
+    color: #0000ee;
+    text-decoration: none;
+  }
+
+  .footer-mainmenu a:hover {
+    text-decoration: underline;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .social-links a {
+    margin: 0.5rem 1rem;
+    /* font-size: 1.2rem; */
+    color: #000; /* Default icon color */
+  }
+
+  .social-links a:hover {
+    color: #0072b1;
+  }
+
   /* Responsive styles for mobile devices */
   @media (max-width: 768px) {
     .container-mainmenu {
@@ -41,12 +95,31 @@
     }
   
     .button-mainmenu {
-      font-size: 5vw;
+      font-size: 6vw;
       /* padding: 0.8rem 1.5rem; */
-      width: 70%;
+      width: 80%;
       /* width: 100%; */
       max-width: 300px;
       margin: 0.5rem 0;
+    }
+
+    .survey-button {
+      font-size: 4.5vw;
+      width: 70%;
+    }
+
+    .footer-mainmenu p {
+      font-size: 4vw;
+    }
+  
+    .social-links a {
+      font-size: 4.5vw;
+      margin: 0 0.5rem;
+    }
+
+    .social-links svg {
+      /* width: 8vw !important; */
+      /* height: auto; */
     }
   }
   
@@ -54,23 +127,42 @@
   @media (max-width: 812px) /*(max-height: 500px)*/ and (orientation: landscape) {
     .container-mainmenu {
       padding: 1rem;
-      /* height: 80vh; */
+      height: 150vh;
     }
   
     .title-mainmenu {      
       font-size: 5vw;
-      margin-top: -6rem;
-      margin-bottom: 3rem;
+      margin-top: -3rem;
+      margin-bottom: 2rem;
       text-align: center;
     }
   
     .button-mainmenu {
-      font-size: 3vw;
+      font-size: 3.5vw;
       /* padding: 0.8rem 1.5rem; */
-      width: 40%;
+      width: 45%;
       /* width: 100%; */
-      max-width: 300px;
+      max-width: 350px;
       margin: 0.5rem 0;
+    }
+
+    .survey-button {
+      font-size: 2.5vw;
+      width: 35%;
+    }
+
+    .footer-mainmenu p {
+      font-size: 2.5vw;
+    }
+  
+    .social-links a {
+      font-size: 2.5vw;
+      margin: 0 0.5rem;
+    }
+
+    .social-links svg {
+      /* width: 5vw !important;
+      height: auto; */
     }
   }
   
