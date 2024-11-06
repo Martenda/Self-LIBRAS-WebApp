@@ -49,7 +49,7 @@ const RecognizeWebSocketAPI = () => {
 
     // const socketUrl = 'https://self-libras-2.fly.dev/';
     // const socketUrl = 'https://self-libras.azurewebsites.net/';
-    const socketUrl = 'http://4.155.126.87/live_camera';
+    const socketUrl = 'ws://4.155.126.87/live_camera';
   
     socketRef.current = new WebSocket(socketUrl);
 
