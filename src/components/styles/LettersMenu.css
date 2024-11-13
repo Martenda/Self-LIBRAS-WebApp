@@ -51,7 +51,7 @@
   
   /* Tooltip/ballon hint styles */
   .disabled-lettersmenu::after {
-    content: 'Sinais com movimento ainda não podem ser identificados pelo Self LIBRAS';
+    content: 'Este Sinal possui movimento, e ainda não pode ser identificado pelo Self LIBRAS';
     position: absolute;
     bottom: 125%; /* Position above the letter box */
     left: 50%;

@@ -61,45 +61,125 @@ const RecognizeWebSocketAPI = () => {
     
     socketRef.current.onmessage = (event) => {
       const messageData = event.data;
-setRecognizedSign(messageData);
+      // setRecognizedSign(messageData);
+      let letterFound = false;
 
-const modelsData = messageData.split(' - ');
+      if (!messageData.includes('%')) {
+        setRecognizedSign(messageData);  
+      } else {
+        const modelsData = messageData.split(' - ');
 
-let letterFound = false;
+        let highestConfidence = 0;
+        let mostConfidentLetter = '';
+        let lettersData = {};
 
-for (const modelData of modelsData) {
-  const colonIndex = modelData.indexOf(':');
-  const openParenIndex = modelData.indexOf('(');
-  const closeParenIndex = modelData.indexOf(')');
-  
-  if (
-    colonIndex !== -1 &&
-    openParenIndex !== -1 &&
-    closeParenIndex !== -1 &&
-    openParenIndex > colonIndex
-  ) {
-    const predictedLetter = modelData
-      .substring(colonIndex + 1, openParenIndex)
-      .trim()
-      .toUpperCase();
+        for (const modelData of modelsData) {
+          const colonIndex = modelData.indexOf(':');
+          const openParenIndex = modelData.indexOf('(');
+          const closeParenIndex = modelData.indexOf(')');
+          
+          if (
+            colonIndex !== -1 &&
+            openParenIndex !== -1 &&
+            closeParenIndex !== -1 &&
+            openParenIndex > colonIndex
+          ) {
+            const predictedLetter = modelData
+              .substring(colonIndex + 1, openParenIndex)
+              .trim()
+              .toUpperCase();
 
-    const confidenceStr = modelData
-      .substring(openParenIndex + 1, closeParenIndex)
-      .trim();
-    const confidenceValue = parseFloat(confidenceStr.replace('%', ''));
+            const confidenceStr = modelData
+              .substring(openParenIndex + 1, closeParenIndex)
+              .trim();
 
-    if (
-      predictedLetter === letter.toUpperCase() &&
-      confidenceValue > 50.0
-    ) {
-      letterFound = true;
-      break; // Exit the loop early since the letter is found
-    }
-  }
-}
+            const confidenceValue = parseFloat(confidenceStr.replace('%', ''));
 
-setMatchesSign(letterFound);
+            if (lettersData.hasOwnProperty(predictedLetter)) {
+              lettersData[predictedLetter].count += 1;
+              lettersData[predictedLetter].sumConfidence += confidenceValue;
+              lettersData[predictedLetter].confidences.push(confidenceValue);
+            } else {
+              lettersData[predictedLetter] = {
+                count: 1,
+                sumConfidence: confidenceValue,
+                confidences: [confidenceValue],
+              };
+            }
 
+            // Check if the predicted letter matches the expected letter
+            if (
+              predictedLetter === letter.toUpperCase() &&
+              confidenceValue > 50.0
+            ) {
+              letterFound = true;
+              setRecognizedSign(
+                "Sinal Reconhecido: " +
+                predictedLetter +
+                ", Confiabilidade: " +
+                confidenceStr);
+              break; // Exit the loop early since the letter is found
+            } else {
+              // Keep track of the letter with the highest confidence
+              if (confidenceValue > highestConfidence) {
+                highestConfidence = confidenceValue;
+                mostConfidentLetter = predictedLetter;
+              }
+            }
+          }
+        }
+
+        if (!letterFound) {
+          // Process lettersData to find the letter that appears most frequently
+          let maxCount = 0;
+          let mostFrequentLetters = [];
+
+          for (const [letterKey, data] of Object.entries(lettersData)) {
+            if (data.count > maxCount) {
+              maxCount = data.count;
+              mostFrequentLetters = [letterKey];
+            } else if (data.count === maxCount) {
+              mostFrequentLetters.push(letterKey);
+            }
+          }
+
+          if (maxCount > 1) {
+            // There is at least one letter predicted by more than one model
+            // Choose among the most frequent letters
+            // If multiple letters tie in count, pick the one with the highest average confidence
+            let highestAvgConfidence = 0;
+            let selectedLetter = '';
+
+            for (const letterKey of mostFrequentLetters) {
+              const data = lettersData[letterKey];
+              const avgConfidence = data.sumConfidence / data.count;
+              if (avgConfidence > highestAvgConfidence) {
+                highestAvgConfidence = avgConfidence;
+                selectedLetter = letterKey;
+              }
+            }
+
+            setRecognizedSign(
+              "Sinal Reconhecido: " +
+                selectedLetter +
+                ", Confiabilidade: " +
+                highestAvgConfidence.toFixed(1) +
+                "%"
+            );
+          } else {
+            // No repeated letters, pick the letter with the highest confidence
+            setRecognizedSign(
+              "Sinal Reconhecido: " +
+                mostConfidentLetter +
+                ", Confiabilidade: " +
+                highestConfidence.toFixed(1) +
+                "%"
+            );
+          }
+        }
+      }
+
+      setMatchesSign(letterFound);
     };
 
     socketRef.current.onerror = (error) => {
