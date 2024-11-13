@@ -12,9 +12,17 @@
   
   .title-mainmenu {
     font-size: 3rem;
-    margin-bottom: 6rem;
-    margin-top: -2rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
     /* text-align: center; */
+  }
+
+  .infotext-mainmenu {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    /* white-space: normal; */
+    text-align: center;
+    max-width: 35%;
   }
   
   .button-mainmenu {
@@ -89,9 +97,17 @@
   
     .title-mainmenu {      
       font-size: 10vw;
-      margin-top: -5rem;
-      margin-bottom: 3rem;
+      margin-top: -2rem;
+      margin-bottom: 1rem;
       text-align: center;
+    }
+
+    .infotext-mainmenu {
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+      /* white-space: normal; */
+      text-align: center;
+      max-width: 95%;
     }
   
     .button-mainmenu {
@@ -132,9 +148,17 @@
   
     .title-mainmenu {      
       font-size: 5vw;
-      margin-top: -3rem;
-      margin-bottom: 2rem;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
       text-align: center;
+    }
+
+    .infotext-mainmenu {
+      margin-bottom: 1.5rem;
+      font-size: 1.3rem;
+      /* white-space: normal; */
+      text-align: center;
+      max-width: 65%;
     }
   
     .button-mainmenu {

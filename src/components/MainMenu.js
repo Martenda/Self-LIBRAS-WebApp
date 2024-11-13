@@ -12,12 +12,13 @@ const MainMenu = () => {
   };
 
   const openSurvey = () => {
-    window.open('https://google.com', '_blank');
+    window.open('https://forms.gle/7WQMYDyiwF61BGj48', '_blank');
   };
 
   return (
     <div className="container-mainmenu">
       <h1 className="title-mainmenu">Bem-vindo ao Self LIBRAS!</h1>
+      <p className='infotext-mainmenu'>Que tal aprender e praticar alguns Sinais de LIBRAS para as letras do alfabeto?</p>
       <button onClick={startGame} className="button-mainmenu">
         Começar a aprender
       </button>

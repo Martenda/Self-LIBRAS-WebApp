@@ -63,7 +63,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.45); /* Semi-transparent background */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@
     }
   
     .title-recognizewebsocketapi {
-      font-size: 5vw;
+      font-size: 5.9vw;
       margin-top: -3rem;
       text-align: center;
     }
@@ -100,12 +100,12 @@
     }
   
     .label-recognized-sign-recognizewebsocketapi {
-      margin-top: 0.7rem;
-      margin-bottom: 0.3rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       font-size: 4vw;
       text-align: center;
       max-width: 95%;
-      max-height: 0.7rem;
+      max-height: 1rem;
     }
   
     .button-container-recognizewebsocketapi {
@@ -115,9 +115,9 @@
     }
   
     .nav-button-recognizewebsocketapi {
-      font-size: 4vw;
+      font-size: 4.5vw;
       margin: 0.5rem 0.3rem;
-      width: 10rem;
+      width: 47vw;
       /* max-width: 300px; */
       height: 2.8rem;
     }
@@ -125,6 +125,7 @@
     .congrats-text-recognizewebsocketapi {
       font-size: 5vw;
       padding: 0 0.5rem;
+      max-width: 70%;
     }
   }
   
@@ -178,6 +179,7 @@
     .congrats-text-recognizewebsocketapi {
       font-size: 5vw;
       padding: 0 0.5rem;
+      max-width: 70%;
     }
   }
   

@@ -35,6 +35,7 @@
     cursor: pointer;
     transition: transform 0.2s;
     width: 3rem;
+    position: relative; /* Added for tooltip/ballon hint positioning */
   }
   
   .letter-box-lettersmenu:hover {
@@ -43,9 +44,52 @@
   }
   
   .disabled-lettersmenu {
-    background-color: #6fad70; /* Gray color to indicate it's disabled */
-    cursor: not-allowed;       /* Change the cursor to indicate it's disabled */
-    opacity: 0.6;              /* Reduce opacity to give a disabled effect */
+    background-color: #6fad70; /* Pale color to indicate it's disabled */
+    cursor: not-allowed; /* Change the cursor to indicate it's disabled */
+    opacity: 0.6; /* Reduce opacity to give a disabled effect */
+  }
+  
+  /* Tooltip/ballon hint styles */
+  .disabled-lettersmenu::after {
+    content: 'Sinais com movimento ainda não podem ser identificados pelo Self LIBRAS';
+    position: absolute;
+    bottom: 125%; /* Position above the letter box */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    white-space: normal;
+    max-width: 400px; /* Defines max lenght */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+    z-index: 1;
+    text-align: center;
+    /* width: 200px; */
+  }
+
+  .disabled-lettersmenu::before {
+    content: '';
+    position: absolute;
+    bottom: 115%; /* Adjust to position the arrow */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+    z-index: 1;
+  }
+
+  .disabled-lettersmenu:hover::after,
+  .disabled-lettersmenu:hover::before {
+    opacity: 1;
+    visibility: visible;
   }
   
   .button-container-lettersmenu {

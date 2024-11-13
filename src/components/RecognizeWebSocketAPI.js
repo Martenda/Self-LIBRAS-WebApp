@@ -43,15 +43,16 @@ const RecognizeWebSocketAPI = () => {
     // const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
     // const hostname = window.location.hostname; //IP do Server Python
     // const port = '5000';
-    // const path = '/live_camera';
-    
+    // const path = '/live_camera';    
     // const socketUrl = `${protocol}://${hostname}:${port}${path}`;
 
     const socketUrl = 'https://self-libras-4.fly.dev/live_camera';
     // const socketUrl = 'https://self-libras.azurewebsites.net/';
     // const socketUrl = 'ws://20.112.58.223/live_camera';
-    //const socketUrl = 'wss://137.135.6.252/live_camera';
-  
+    // const socketUrl = 'ws://137.135.6.252/live_camera';
+    // const socketUrl = 'http://172.179.60.83/';
+    // const socketUrl = 'http://4.228.60.101:5000/';
+
     socketRef.current = new WebSocket(socketUrl);
 
     socketRef.current.onopen = () => {
