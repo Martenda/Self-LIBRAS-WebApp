@@ -1,7 +1,7 @@
-# TCC-3
+# Self LIBRAS WebApp
 
 LIBRAS Sign Recognition App for Learning using AI.
 
 MVP for the College Final Paper Research Project.
 
-Module 3.
+Backend project for TCC.
