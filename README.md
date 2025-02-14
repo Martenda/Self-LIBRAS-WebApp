@@ -2,14 +2,20 @@
   <img src="https://github.com/user-attachments/assets/f4eb5ec2-cad1-40f9-aa40-8922779490e6" width="128">
 </p>
 
-# Self LIBRAS - WebApp
+<h1 align="center">Self LIBRAS - WebApp</h1>
 
 A web-based interactive platform for learning LIBRAS (Brazilian Sign Language) through artificial intelligence. The application allows users to practice static LIBRAS signs in real-time using their device's camera and receive immediate feedback on their performance.
 
 This project was developed as part of an top-grade undergraduate thesis (TCC), and this research was scientifically validated with statistical rigor, establishing it as an effective learning tool with proven success.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
-[![React](https://img.shields.io/badge/React-18.2-blue.svg)](https://react.dev/)  
+<p align="center">
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg">
+  </a>
+  <a href='https://react.dev/'>
+    <img src='https://img.shields.io/badge/React-18.2-blue.svg' />
+  </a>
+</p>
 
 ## Production Link  
 [Self LIBRAS](https://self-libras.vercel.app/) in production.
@@ -47,7 +53,9 @@ At PC Devices:
 <img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="780">
 <img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="780">
 
-## Installation  
+## Usage  
+
+# Installation  
 
 Clone the repository and install dependencies:  
 ```bash
@@ -56,13 +64,13 @@ cd self-libras-webapp
 npm install  
 ```
 
-## Usage  
+# Execution  
 To start the application:  
 ```bash
 npm start  
 ```  
 
-## Deployment  
+# Deployment  
 To deploy the application:  
 ```bash
 npm run deploy  
