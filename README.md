@@ -55,7 +55,7 @@ At PC Devices:
 
 ## Usage  
 
-# Installation  
+### Installation  
 
 Clone the repository and install dependencies:  
 ```bash
@@ -64,13 +64,13 @@ cd self-libras-webapp
 npm install  
 ```
 
-# Execution  
+### Execution  
 To start the application:  
 ```bash
 npm start  
 ```  
 
-# Deployment  
+### Deployment  
 To deploy the application:  
 ```bash
 npm run deploy  
