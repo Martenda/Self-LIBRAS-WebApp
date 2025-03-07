@@ -6,7 +6,7 @@
 
 A web-based interactive platform for learning LIBRAS (Brazilian Sign Language) through artificial intelligence. The application allows users to practice static LIBRAS signs in real-time using their device's camera and receive immediate feedback on their performance.
 
-This project was developed as part of an top-grade undergraduate thesis (TCC), and this research was scientifically validated with statistical rigor, establishing it as an effective learning tool with proven success.
+This project was developed as part of a top-grade undergraduate thesis (TCC), and this research was scientifically validated with statistical rigor, establishing it as an effective learning tool with proven success.
 
 <p align="center">
   <a href="https://choosealicense.com/licenses/mit/">
