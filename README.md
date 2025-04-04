@@ -8,32 +8,39 @@ A web-based interactive platform for learning LIBRAS (Brazilian Sign Language) t
 
 This project was developed as part of a top-grade undergraduate thesis (TCC), and this research was scientifically validated with statistical rigor, establishing it as an effective learning tool with proven success.
 
-<p align="center">
-  <a href="https://choosealicense.com/licenses/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg">
-  </a>
+<div align="center">
+  <a href="https://opensource.org/license/mit">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg">
+  </a>  
   <a href='https://react.dev/'>
-    <img src='https://img.shields.io/badge/React-18.2-blue.svg' />
+    <img src='https://img.shields.io/badge/React-18.3.1-blue.svg' />
   </a>
-</p>
+</div>
 
 ## Production Link  
-[Self LIBRAS](https://self-libras.vercel.app/) in production.
+You'll love to try the final product in production! Check it out at: **[self-libras.vercel.app/](https://self-libras.vercel.app/)**
+
+## Article and Slides  
+
+[Read the full article](#)  
+Presentation slides: [Apresentação para Banca - Self LIBRAS vFinal.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)
 
 ## Tech Stack  
-- **Client:** React, React Router  
-- **State Management:** Hooks  
-- **Styling:** CSS Modules  
+- **Client:** React.js, React Router  
 - **API Integration:** FastAPI  
 - **AI Models Integration:** WebSocket API  
 - **Webcam Handling:** React Webcam  
+- **State Management:** Hooks  
+- **Styling:** CSS Modules  
 
+<!--
 ## Demo  
 GIFs here...  
+-->
 
 ## Screenshots  
 
-At Mobile Devices:
+Mobile Devices:
 
 <img src="https://github.com/user-attachments/assets/9e8b72a0-74d5-47b9-9a29-8f7752fcf2f8" width="256">
 <img src="https://github.com/user-attachments/assets/6533fe6e-d839-42e3-9c5a-c1e6658de2ee" width="256">
@@ -42,16 +49,16 @@ At Mobile Devices:
 <img src="https://github.com/user-attachments/assets/55ec1957-d00e-4fd9-bf0c-779ce7296256" width="256">
 <img src="https://github.com/user-attachments/assets/8adec190-0038-453c-ac67-304a1b680a3e" width="256">
 
-At PC Devices:
+PC Devices:
 
-<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="780">
-<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="780">
-<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="780">
-<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="780">
-<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="780">
-<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="780">
-<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="780">
-<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="780">
+<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="500">
+<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="500">
+<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="500">
+<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="500">
+<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="500">
+<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="500">
+<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="500">
+<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="500">
 
 ## Usage  
 
@@ -59,7 +66,7 @@ At PC Devices:
 
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/your-repo/self-libras-webapp.git  
+git clone https://github.com/Martenda/Self-LIBRAS-WebApp.git  
 cd self-libras-webapp  
 npm install  
 ```
@@ -77,22 +84,22 @@ npm run deploy
 ```
 
 ## Features  
-✔ Real-time sign language recognition using AI  
+✔ Real-time sign language recognition using A.I.  
 ✔ Interactive learning experience  
 ✔ Responsive design for mobile and desktop  
 ✔ Performance tracking and feedback  
-
-## Article and Slides  
-[Read the full article](#)  
-[Presentation slides](#)  
 
 ## Contact the Author  
 - [Lucas Martendal on GitHub](https://github.com/Martenda)  
 - [Lucas Martendal on LinkedIn](https://www.linkedin.com/in/lucas-martendal/)  
 - [E-mail to lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)  
 
-## Feedback  
-If you have any feedback, please reach out to us at [lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)   
-
 ## License  
-[MIT](https://choosealicense.com/licenses/mit/)  
+This project is licensed by [The MIT License](https://opensource.org/license/mit).  
+
+## Feedback  
+If you have any feedback, please feel free to reach me out at [lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)   
+
+Thank you so much!
+
+<img src="https://i.pinimg.com/originals/02/c9/08/02c90823e70f897ab8d64d2455e8553d.gif" width="250">
