@@ -44,14 +44,14 @@ Mobile Devices:
 
 PC Devices:
 
-<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="384">
-<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="384">
-<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="384">
-<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="384">
-<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="384">
-<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="384">
-<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="384">
-<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="384">
+<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="390">
+<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="390">
+<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="390">
+<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="390">
+<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="390">
+<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="390">
+<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="390">
+<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="390">
 
 ## Features  
 ✔ Real-time sign language recognition using A.I.  
@@ -90,16 +90,16 @@ To deploy the application:
 npm run deploy  
 ```
 
-## License  
-This project is licensed by [The MIT License](https://opensource.org/license/mit).  
-
-## Feedback  
-If you have any feedback, please feel free to reach me out at [lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)   
-
 ## Contact the Author  
 - [Lucas Martendal on GitHub](https://github.com/Martenda)  
 - [Lucas Martendal on LinkedIn](https://www.linkedin.com/in/lucas-martendal/)  
 - [E-mail to lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)  
+
+## Feedback  
+If you have any feedback, please feel free to reach me out at [lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)   
+
+## License  
+This project is licensed by [The MIT License](https://opensource.org/license/mit).  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/547fca19-0830-492d-8240-7bea38f8e16b" width="250">
@@ -109,7 +109,7 @@ If you have any feedback, please feel free to reach me out at [lucasmartendal777
 </p>
 
 <p align="center">
-Thank you so much! (in LIBRAS)
+<b>Thank you so much! (in LIBRAS 😆)</b>
 <!--
 Thank you! (in ASL)
 -->
