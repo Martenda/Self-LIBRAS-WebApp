@@ -20,18 +20,11 @@ This project was developed as part of a top-grade undergraduate thesis (TCC), an
 ## Production Link  
 You'll love to try the final product in production! Check it out at: **[self-libras.vercel.app/](https://self-libras.vercel.app/)**
 
-## Article and Slides  
+## Article and Presentation
 
-[Read the full article](#)  
-Presentation slides: [Apresentação para Banca - Self LIBRAS vFinal.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)
+Read the full monograph: **[Article at the Institutional Repository](https://repositorio.udesc.br/entities/publication/c370637b-e1fd-4e3e-9a79-0e7fcd44db5e)**
 
-## Tech Stack  
-- **Client:** React.js, React Router  
-- **API Integration:** FastAPI  
-- **AI Models Integration:** WebSocket API  
-- **Webcam Handling:** React Webcam  
-- **State Management:** Hooks  
-- **Styling:** CSS Modules  
+See the presentation: **[Presentation to the Doctoral Committee.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)**
 
 <!--
 ## Demo  
@@ -51,14 +44,28 @@ Mobile Devices:
 
 PC Devices:
 
-<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="500">
-<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="500">
-<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="500">
-<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="500">
-<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="500">
-<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="500">
-<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="500">
-<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="500">
+<img src="https://github.com/user-attachments/assets/0897a1a3-0db1-4a41-a460-a44bab333eb4" width="384">
+<img src="https://github.com/user-attachments/assets/9209d5e8-8109-40ee-9d88-e3dd0dbeb139" width="384">
+<img src="https://github.com/user-attachments/assets/53edbc5a-2003-43a6-8ccf-b76b0e10414e" width="384">
+<img src="https://github.com/user-attachments/assets/751516dd-95df-463f-bde1-bf10239d4ef1" width="384">
+<img src="https://github.com/user-attachments/assets/ed943c18-b6bf-400f-a35c-47e6255555dd" width="384">
+<img src="https://github.com/user-attachments/assets/506e2d56-5e26-44d2-a5a5-d857a2647aee" width="384">
+<img src="https://github.com/user-attachments/assets/003737b6-ce59-4087-9977-9c53a4198036" width="384">
+<img src="https://github.com/user-attachments/assets/92585b29-1d7e-4725-ab2e-d83580cdc60a" width="384">
+
+## Features  
+✔ Real-time sign language recognition using A.I.  
+✔ Interactive learning experience  
+✔ Responsive design for mobile and desktop  
+✔ Performance tracking and feedback  
+
+## Tech Stack  
+- **Client:** React.js, React Router  
+- **API Integration:** FastAPI  
+- **AI Models Integration:** WebSocket API  
+- **Webcam Handling:** React Webcam  
+- **State Management:** Hooks  
+- **Styling:** CSS Modules  
 
 ## Usage  
 
@@ -83,23 +90,27 @@ To deploy the application:
 npm run deploy  
 ```
 
-## Features  
-✔ Real-time sign language recognition using A.I.  
-✔ Interactive learning experience  
-✔ Responsive design for mobile and desktop  
-✔ Performance tracking and feedback  
-
-## Contact the Author  
-- [Lucas Martendal on GitHub](https://github.com/Martenda)  
-- [Lucas Martendal on LinkedIn](https://www.linkedin.com/in/lucas-martendal/)  
-- [E-mail to lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)  
-
 ## License  
 This project is licensed by [The MIT License](https://opensource.org/license/mit).  
 
 ## Feedback  
 If you have any feedback, please feel free to reach me out at [lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)   
 
-Thank you so much!
+## Contact the Author  
+- [Lucas Martendal on GitHub](https://github.com/Martenda)  
+- [Lucas Martendal on LinkedIn](https://www.linkedin.com/in/lucas-martendal/)  
+- [E-mail to lucasmartendal777@gmail.com](mailto:lucasmartendal777@gmail.com)  
 
-<img src="https://i.pinimg.com/originals/02/c9/08/02c90823e70f897ab8d64d2455e8553d.gif" width="250">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/547fca19-0830-492d-8240-7bea38f8e16b" width="250">
+  <!--
+  <img src="https://i.pinimg.com/originals/02/c9/08/02c90823e70f897ab8d64d2455e8553d.gif" width="250">
+  -->
+</p>
+
+<p align="center">
+Thank you so much! (in LIBRAS)
+<!--
+Thank you! (in ASL)
+-->
+</p>
