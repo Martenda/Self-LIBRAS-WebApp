@@ -26,6 +26,10 @@ Read the full monograph: **[Article at the Institutional Repository](https://rep
 
 See the presentation: **[Presentation to the Doctoral Committee.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)**
 
+## Backend Repository
+
+Link to the A.I. Models (backend) repository: **[github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)**
+
 <!--
 ## Demo  
 GIFs here...  
