@@ -2,18 +2,23 @@
   <img src="https://github.com/user-attachments/assets/f4eb5ec2-cad1-40f9-aa40-8922779490e6" width="128">
 </p>
 
-<h1 align="center">Self LIBRAS - WebApp</h1>
+<h1 align="center">Self LIBRAS - Web Application</h1>
 
 A web-based interactive platform for learning LIBRAS (Brazilian Sign Language) through artificial intelligence. The application allows users to practice static LIBRAS signs in real-time using their device's camera and receive immediate feedback on their performance.
 
 This project was developed as part of a top-grade undergraduate thesis (TCC), and this research was scientifically validated with statistical rigor, establishing it as an effective learning tool with proven success.
 
+<br>
+
 <div align="center">
-  <a href="https://opensource.org/license/mit">
-    <img src="https://img.shields.io/badge/License-MIT-red.svg">
-  </a>  
+  <a href='https://opensource.org/license/mit'>
+    <img src='https://img.shields.io/badge/License-MIT-C20018.svg?logo=opensourceinitiative&logoColor=FFFFFF'>
+  </a>
   <a href='https://react.dev/'>
-    <img src='https://img.shields.io/badge/React-18.3.1-blue.svg' />
+    <img src='https://img.shields.io/badge/React-18.3.1-00D8FF.svg?logo=react'>
+  </a>
+  <a href='https://vercel.com/'>
+    <img src='https://img.shields.io/badge/Vercel-37.14.0-000000.svg?logo=vercel'>
   </a>
 </div>
 
@@ -22,13 +27,13 @@ You'll love to try the final product in production! Check it out at: **[self-lib
 
 ## Article and Presentation
 
-Read the full monograph: **[Article at the Institutional Repository](https://repositorio.udesc.br/entities/publication/c370637b-e1fd-4e3e-9a79-0e7fcd44db5e)**
+Read the full monograph: [Article at the Institutional Repository](https://repositorio.udesc.br/entities/publication/c370637b-e1fd-4e3e-9a79-0e7fcd44db5e)
 
-See the presentation: **[Presentation to the Doctoral Committee.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)**
+See the presentation: [Presentation to the Doctoral Committee.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)
 
 ## Backend Repository
 
-Link to the A.I. Models (backend) repository: **[github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)**
+Link to the A.I. Models (backend) repository: [github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)
 
 <!--
 ## Demo  
