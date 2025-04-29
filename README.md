@@ -35,6 +35,23 @@ See the presentation: [Presentation to the Doctoral Committee.pdf](https://githu
 
 Link to the A.I. Models (backend) repository: [github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)
 
+## On The News
+
+<ul>
+  <li>
+    State Government News: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='https://estado.sc.gov.br/noticias/aluno-da-udesc-alto-vale-desenvolve-aplicativo-para-aprendizado-de-libras/'>Udesc Alto Vale student develops Libras learn...</a>
+  </li>
+  <li>
+    "Educadora" Regional Radio News: &nbsp;&nbsp; <a href='https://www.portaleducadora.com/entretenimento/jovem-de-ibirama-desenvolve-aplicativo-para-aprendizado-de-libras/'>Student from Ibirama develops Libras app...</a>
+  </li>
+  <li>    
+    "Vale Norte" Regional Radio News: &nbsp;&nbsp; <a href='https://redevalenorte.com/aluno-da-udesc-alto-vale-desenvolve-aplicativo-para-aprendizado-de-libras/'>Udesc Alto Vale student develops learning app...</a>
+  </li>
+  <li>
+    UDESC State University News: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='https://www.udesc.br/ceavi/noticia/aluno_da_udesc_alto_vale_desenvolve_aplicativo_para_aprendizado_de_libras'>Udesc Alto Vale student develops app for Libras...</a>
+  </li>
+</ul>
+
 <!--
 ## Demo  
 GIFs here...  
