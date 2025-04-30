@@ -23,7 +23,7 @@ This project was developed as part of a top-grade undergraduate thesis (TCC), an
   <br>
   <br>
   <a href='a'>
-    <img src='https://img.shields.io/badge/react_webcam-7.2.0-607d8b.svg?logo='>
+    <img src='https://img.shields.io/badge/React_Webcam-7.2.0-607d8b.svg?logo='>
   </a>
   <a href='a'>
     <img src='https://img.shields.io/badge/Socket.IO_Client-4.8.0-232323.svg?logo=socketdotio'>
