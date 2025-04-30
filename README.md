@@ -20,6 +20,17 @@ This project was developed as part of a top-grade undergraduate thesis (TCC), an
   <a href='https://vercel.com/'>
     <img src='https://img.shields.io/badge/Vercel-37.14.0-000000.svg?logo=vercel'>
   </a>
+  <br>
+  <br>
+  <a href='a'>
+    <img src='https://img.shields.io/badge/react_webcam-7.2.0-607d8b.svg?logo='>
+  </a>
+  <a href='a'>
+    <img src='https://img.shields.io/badge/Socket.IO_Client-4.8.0-232323.svg?logo=socketdotio'>
+  </a>
+  <a href='a'>
+    <img src='https://img.shields.io/badge/Webpack-5.95.0-84c7e8.svg?logo=webpack'>
+  </a>
 </div>
 
 ## Production Link  
@@ -31,11 +42,9 @@ Read the full monograph: [Article at the Institutional Repository](https://repos
 
 See the presentation: [Presentation to the Doctoral Committee.pdf](https://github.com/user-attachments/files/19609969/Apresentacao.para.Banca.-.Self.LIBRAS.vFinal.pdf)
 
-## Backend Repository
-
-Link to the A.I. Models (backend) repository: [github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)
-
 ## On The News
+
+Check out the impact of the project on the community:
 
 <ul>
   <li>
@@ -51,6 +60,10 @@ Link to the A.I. Models (backend) repository: [github.com/Martenda/Self-LIBRAS-A
     UDESC State University News: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='https://www.udesc.br/ceavi/noticia/aluno_da_udesc_alto_vale_desenvolve_aplicativo_para_aprendizado_de_libras'>Udesc Alto Vale student develops app for Libras...</a>
   </li>
 </ul>
+
+## Backend Repository
+
+Link to the A.I. Models (backend) repository: [github.com/Martenda/Self-LIBRAS-AI-Models](https://github.com/Martenda/Self-LIBRAS-AI-Models)
 
 <!--
 ## Demo  
